@@ -31,6 +31,16 @@ class Screen0 extends StatelessWidget {
                 Navigator.pushNamed(context, '/second');
               },
             ),
+            ElevatedButton(
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.teal, // background// foreground
+              ),
+              child: Text('Go To Screen 3'),
+              onPressed: () {
+                //Navigate to Screen 2
+                Navigator.pushNamed(context, '/third');
+              },
+            ),
           ],
         ),
       ),
